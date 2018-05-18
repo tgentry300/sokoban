@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(152, 238, 144);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.cell {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wall {
+    background-image: url("grass.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .box {
+    /* background-image: url("seeds.png");
+    background-repeat: no-repeat;
+    background-size: 80%; */
+/* } */ 
+
+.storage {
+    background-image: url("dirt.png");
+}
+#cornMan {
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    
+}
