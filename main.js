@@ -86,12 +86,12 @@ document.addEventListener('keydown', (event) => {
             }
             break;
         case "ArrowLeft":
-            if (map[cornManState.charRow][cornManState.charCell - 1] !== "W" && cornManState.charCell > 0) {
+            if (map[cornManState.charRow][cornManState.charCell - 1] !== "W") {
                 cornManState.charCell -= 1
             }
             break;
         case "ArrowRight":
-            if (map[cornManState.charRow][cornManState.charCell + 1] !== "W" && cornManState.charCell < 20) {
+            if (map[cornManState.charRow][cornManState.charCell + 1] !== "W") {
                 cornManState.charCell += 1
             }
             break;
